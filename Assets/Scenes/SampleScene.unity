@@ -1,0 +1,1611 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 9
+  m_Fog: 1
+  m_FogColor: {r: 0, g: 0, b: 0, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.005
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0.21698111, g: 0.21698111, b: 0.21698111, a: 1}
+  m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
+  m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 3
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 6eb976833a7ebe04f8237f866bfcaf04, type: 2}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 705507994}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+  m_UseRadianceAmbientProbe: 0
+--- !u!157 &3
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 11
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 12
+    m_Resolution: 2
+    m_BakeResolution: 40
+    m_AtlasSize: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 1
+    m_CompAOExponentDirect: 0
+    m_ExtractAmbientOcclusion: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 1
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 256
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 2
+    m_BakeBackend: 1
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 500
+    m_PVRBounces: 2
+    m_PVREnvironmentSampleCount: 500
+    m_PVREnvironmentReferencePointCount: 2048
+    m_PVRFilteringMode: 2
+    m_PVRDenoiserTypeDirect: 0
+    m_PVRDenoiserTypeIndirect: 0
+    m_PVRDenoiserTypeAO: 0
+    m_PVRFilterTypeDirect: 0
+    m_PVRFilterTypeIndirect: 0
+    m_PVRFilterTypeAO: 0
+    m_PVREnvironmentMIS: 0
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousPositionSigmaDirect: 0.5
+    m_PVRFilteringAtrousPositionSigmaIndirect: 2
+    m_PVRFilteringAtrousPositionSigmaAO: 1
+    m_ExportTrainingData: 0
+    m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
+  m_LightingDataAsset: {fileID: 0}
+  m_UseShadowmask: 1
+--- !u!196 &4
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666667
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+    debug:
+      m_Flags: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1 &57614747
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 57614749}
+  - component: {fileID: 57614748}
+  - component: {fileID: 57614750}
+  m_Layer: 0
+  m_Name: LocalServerStorage
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &57614748
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 57614747}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bb70c75e7066c84191bbbf00d6f8b70, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  changes: []
+--- !u!4 &57614749
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 57614747}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &57614750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 57614747}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d98988ed6d3945a4e993f22dc35f41fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  items:
+  - name: Drill
+    sprite: {fileID: 6761164967045977113, guid: f151710505e5d4842a798f3eff8f83f0,
+      type: 3}
+    description: Helps you destroy everything.
+    texturesprite: {fileID: 0}
+    texture: {fileID: 0}
+    type: 0
+    stack: 1
+    blockID: 0
+    spawnPrefab: 0
+    prefab: {fileID: 4172973007746805081, guid: 495e0bd17992868408419baa10740a33,
+      type: 3}
+  - name: Rock
+    sprite: {fileID: 1807125615787039003, guid: 5979f050cd9dc864491604a0e92eaa64,
+      type: 3}
+    description: Part of an ordinary cosmic body.
+    texturesprite: {fileID: 1807125615787039003, guid: 5979f050cd9dc864491604a0e92eaa64,
+      type: 3}
+    texture: {fileID: 0}
+    type: 1
+    stack: 64
+    blockID: 1
+    spawnPrefab: 0
+    prefab: {fileID: 0}
+  - name: Iron ore
+    sprite: {fileID: 349823833441268365, guid: 5979f050cd9dc864491604a0e92eaa64, type: 3}
+    description: Iron ore taken from space. It is billions of years old.
+    texturesprite: {fileID: 349823833441268365, guid: 5979f050cd9dc864491604a0e92eaa64,
+      type: 3}
+    texture: {fileID: 0}
+    type: 1
+    stack: 64
+    blockID: 2
+    spawnPrefab: 0
+    prefab: {fileID: 0}
+  - name: Gold ore
+    sprite: {fileID: 5541110501864291823, guid: 5979f050cd9dc864491604a0e92eaa64,
+      type: 3}
+    description: Iron ore taken from space. It is billions of years old.
+    texturesprite: {fileID: 5541110501864291823, guid: 5979f050cd9dc864491604a0e92eaa64,
+      type: 3}
+    texture: {fileID: 0}
+    type: 1
+    stack: 64
+    blockID: 15
+    spawnPrefab: 0
+    prefab: {fileID: 0}
+  - name: Copper ore
+    sprite: {fileID: -6614373457484812694, guid: 5979f050cd9dc864491604a0e92eaa64,
+      type: 3}
+    description: Copper ore taken from space. It is billions of years old.
+    texturesprite: {fileID: -6614373457484812694, guid: 5979f050cd9dc864491604a0e92eaa64,
+      type: 3}
+    texture: {fileID: 0}
+    type: 1
+    stack: 64
+    blockID: 3
+    spawnPrefab: 0
+    prefab: {fileID: 0}
+  - name: Console
+    sprite: {fileID: 1639214462598301798, guid: 5979f050cd9dc864491604a0e92eaa64,
+      type: 3}
+    description: Thanks to the console, you can control your ship.
+    texturesprite: {fileID: 1639214462598301798, guid: 5979f050cd9dc864491604a0e92eaa64,
+      type: 3}
+    texture: {fileID: 0}
+    type: 1
+    stack: 64
+    blockID: 4
+    spawnPrefab: 0
+    prefab: {fileID: 0}
+  - name: Metal Block
+    sprite: {fileID: 2157240733274199957, guid: 5979f050cd9dc864491604a0e92eaa64,
+      type: 3}
+    description: A regular block of iron.
+    texturesprite: {fileID: 2157240733274199957, guid: 5979f050cd9dc864491604a0e92eaa64,
+      type: 3}
+    texture: {fileID: 0}
+    type: 1
+    stack: 64
+    blockID: 5
+    spawnPrefab: 0
+    prefab: {fileID: 0}
+  - name: Crafter
+    sprite: {fileID: 4798128000316562087, guid: 5979f050cd9dc864491604a0e92eaa64,
+      type: 3}
+    description: This block will help you craft things.
+    texturesprite: {fileID: 4798128000316562087, guid: 5979f050cd9dc864491604a0e92eaa64,
+      type: 3}
+    texture: {fileID: 0}
+    type: 1
+    stack: 32
+    blockID: 6
+    spawnPrefab: 0
+    prefab: {fileID: 0}
+  - name: Thruster Red
+    sprite: {fileID: -7995846982363831464, guid: 5979f050cd9dc864491604a0e92eaa64,
+      type: 3}
+    description: Thruster will help you manage the ship.
+    texturesprite: {fileID: -7995846982363831464, guid: 5979f050cd9dc864491604a0e92eaa64,
+      type: 3}
+    texture: {fileID: 0}
+    type: 1
+    stack: 16
+    blockID: 7
+    spawnPrefab: 0
+    prefab: {fileID: 0}
+  - name: Thruster Blue
+    sprite: {fileID: -4202638810691693305, guid: 5979f050cd9dc864491604a0e92eaa64,
+      type: 3}
+    description: Thruster will help you manage the ship.
+    texturesprite: {fileID: -4202638810691693305, guid: 5979f050cd9dc864491604a0e92eaa64,
+      type: 3}
+    texture: {fileID: 0}
+    type: 1
+    stack: 16
+    blockID: 8
+    spawnPrefab: 0
+    prefab: {fileID: 0}
+  - name: Thruster Pink
+    sprite: {fileID: -7708644975649761358, guid: 5979f050cd9dc864491604a0e92eaa64,
+      type: 3}
+    description: Thruster will help you manage the ship.
+    texturesprite: {fileID: -7708644975649761358, guid: 5979f050cd9dc864491604a0e92eaa64,
+      type: 3}
+    texture: {fileID: 0}
+    type: 1
+    stack: 16
+    blockID: 9
+    spawnPrefab: 0
+    prefab: {fileID: 0}
+  - name: Thruster Green
+    sprite: {fileID: -1530080802165054831, guid: 5979f050cd9dc864491604a0e92eaa64,
+      type: 3}
+    description: Thruster will help you manage the ship.
+    texturesprite: {fileID: -1530080802165054831, guid: 5979f050cd9dc864491604a0e92eaa64,
+      type: 3}
+    texture: {fileID: 0}
+    type: 1
+    stack: 16
+    blockID: 10
+    spawnPrefab: 0
+    prefab: {fileID: 0}
+  - name: Thruster White
+    sprite: {fileID: 5560954434011818755, guid: 5979f050cd9dc864491604a0e92eaa64,
+      type: 3}
+    description: Thruster will help you manage the ship.
+    texturesprite: {fileID: 5560954434011818755, guid: 5979f050cd9dc864491604a0e92eaa64,
+      type: 3}
+    texture: {fileID: 0}
+    type: 1
+    stack: 16
+    blockID: 11
+    spawnPrefab: 0
+    prefab: {fileID: 0}
+  - name: Thruster Yellow
+    sprite: {fileID: 4239528737361974724, guid: 5979f050cd9dc864491604a0e92eaa64,
+      type: 3}
+    description: Thruster will help you manage the ship.
+    texturesprite: {fileID: 4239528737361974724, guid: 5979f050cd9dc864491604a0e92eaa64,
+      type: 3}
+    texture: {fileID: 0}
+    type: 1
+    stack: 16
+    blockID: 12
+    spawnPrefab: 0
+    prefab: {fileID: 0}
+  - name: Thruster LightGreen
+    sprite: {fileID: -4672163745296329812, guid: 5979f050cd9dc864491604a0e92eaa64,
+      type: 3}
+    description: Thruster will help you manage the ship.
+    texturesprite: {fileID: -4672163745296329812, guid: 5979f050cd9dc864491604a0e92eaa64,
+      type: 3}
+    texture: {fileID: 0}
+    type: 1
+    stack: 16
+    blockID: 13
+    spawnPrefab: 0
+    prefab: {fileID: 0}
+  - name: Iron Bar
+    sprite: {fileID: -68751727340038015, guid: f151710505e5d4842a798f3eff8f83f0, type: 3}
+    description: A common ingot of pure metal.
+    texturesprite: {fileID: 0}
+    texture: {fileID: 0}
+    type: 2
+    stack: 64
+    blockID: 0
+    spawnPrefab: 0
+    prefab: {fileID: 0}
+  - name: Copper Bar
+    sprite: {fileID: 5508725064705088119, guid: f151710505e5d4842a798f3eff8f83f0,
+      type: 3}
+    description: A common ingot of pure metal.
+    texturesprite: {fileID: 0}
+    texture: {fileID: 0}
+    type: 2
+    stack: 64
+    blockID: 0
+    spawnPrefab: 0
+    prefab: {fileID: 0}
+  - name: Gold Bar
+    sprite: {fileID: 6099581493293703690, guid: f151710505e5d4842a798f3eff8f83f0,
+      type: 3}
+    description: A common ingot of pure metal.
+    texturesprite: {fileID: 0}
+    texture: {fileID: 0}
+    type: 2
+    stack: 64
+    blockID: 0
+    spawnPrefab: 0
+    prefab: {fileID: 0}
+  - name: Iron billet
+    sprite: {fileID: -5428206428529569624, guid: f151710505e5d4842a798f3eff8f83f0,
+      type: 3}
+    description: This item was made for building frames
+    texturesprite: {fileID: 0}
+    texture: {fileID: 0}
+    type: 2
+    stack: 64
+    blockID: 0
+    spawnPrefab: 0
+    prefab: {fileID: 0}
+  - name: Battery
+    sprite: {fileID: -7833671090200325546, guid: f151710505e5d4842a798f3eff8f83f0,
+      type: 3}
+    description: This is an ordinary battery, from which you can create a cluster.
+    texturesprite: {fileID: 0}
+    texture: {fileID: 0}
+    type: 2
+    stack: 64
+    blockID: 0
+    spawnPrefab: 0
+    prefab: {fileID: 0}
+  - name: Chip
+    sprite: {fileID: 5860025163644826426, guid: f151710505e5d4842a798f3eff8f83f0,
+      type: 3}
+    description: This chip can handle 2 teraflops
+    texturesprite: {fileID: 0}
+    texture: {fileID: 0}
+    type: 2
+    stack: 16
+    blockID: 0
+    spawnPrefab: 0
+    prefab: {fileID: 0}
+  - name: Logical Element
+    sprite: {fileID: -7583409310137716746, guid: f151710505e5d4842a798f3eff8f83f0,
+      type: 3}
+    description: This microchip can handle 5 teraflops
+    texturesprite: {fileID: 0}
+    texture: {fileID: 0}
+    type: 2
+    stack: 16
+    blockID: 0
+    spawnPrefab: 0
+    prefab: {fileID: 0}
+  - name: Carcase
+    sprite: {fileID: 980155311395259703, guid: f151710505e5d4842a798f3eff8f83f0, type: 3}
+    description: On the basis of this framework, great structures are created.
+    texturesprite: {fileID: 0}
+    texture: {fileID: 0}
+    type: 2
+    stack: 16
+    blockID: 0
+    spawnPrefab: 0
+    prefab: {fileID: 0}
+  - name: 'Forcer '
+    sprite: {fileID: -732356172534689064, guid: f151710505e5d4842a798f3eff8f83f0,
+      type: 3}
+    description: This forcer is needed for a jet engine, it creates pressure.
+    texturesprite: {fileID: 0}
+    texture: {fileID: 0}
+    type: 2
+    stack: 16
+    blockID: 0
+    spawnPrefab: 0
+    prefab: {fileID: 0}
+  - name: Navigator
+    sprite: {fileID: 8132948862792318974, guid: f151710505e5d4842a798f3eff8f83f0,
+      type: 3}
+    description: 'Helps the ship to navigate in space, in the <color=#ff0000>X<color=#00ff00>Y<color=#09ff>Z
+      <color=#fff>axes. '
+    texturesprite: {fileID: 0}
+    texture: {fileID: 0}
+    type: 2
+    stack: 8
+    blockID: 0
+    spawnPrefab: 0
+    prefab: {fileID: 0}
+  - name: Oxygen
+    sprite: {fileID: 2614870373251885436, guid: f151710505e5d4842a798f3eff8f83f0,
+      type: 3}
+    description: This capsule can withstand the huge loads that allows to pump gas,
+      under enormous pressure.
+    texturesprite: {fileID: 0}
+    texture: {fileID: 0}
+    type: 2
+    stack: 64
+    blockID: 0
+    spawnPrefab: 0
+    prefab: {fileID: 0}
+  - name: Combustion chamber
+    sprite: {fileID: -2693009140137883590, guid: f151710505e5d4842a798f3eff8f83f0,
+      type: 3}
+    description: This chamber is needed for reactions inside the engine.
+    texturesprite: {fileID: 0}
+    texture: {fileID: 0}
+    type: 2
+    stack: 16
+    blockID: 0
+    spawnPrefab: 0
+    prefab: {fileID: 0}
+  - name: Compression chamber
+    sprite: {fileID: -956252262595852801, guid: f151710505e5d4842a798f3eff8f83f0,
+      type: 3}
+    description: This chamber helps build up pressure.
+    texturesprite: {fileID: 0}
+    texture: {fileID: 0}
+    type: 2
+    stack: 16
+    blockID: 0
+    spawnPrefab: 0
+    prefab: {fileID: 0}
+  - name: Jet
+    sprite: {fileID: 6738218706411903907, guid: f151710505e5d4842a798f3eff8f83f0,
+      type: 3}
+    description: Helps to move along any of the axes.
+    texturesprite: {fileID: 0}
+    texture: {fileID: 0}
+    type: 2
+    stack: 16
+    blockID: 0
+    spawnPrefab: 0
+    prefab: {fileID: 0}
+  - name: Heating panel
+    sprite: {fileID: -6338023803479276477, guid: f151710505e5d4842a798f3eff8f83f0,
+      type: 3}
+    description: A heating element.
+    texturesprite: {fileID: 0}
+    texture: {fileID: 0}
+    type: 2
+    stack: 64
+    blockID: 0
+    spawnPrefab: 0
+    prefab: {fileID: 0}
+  - name: Forming furnace
+    sprite: {fileID: -5012251703786577423, guid: 5979f050cd9dc864491604a0e92eaa64,
+      type: 3}
+    description: Helps you craft the base materials.
+    texturesprite: {fileID: -5012251703786577423, guid: 5979f050cd9dc864491604a0e92eaa64,
+      type: 3}
+    texture: {fileID: 0}
+    type: 1
+    stack: 64
+    blockID: 16
+    spawnPrefab: 0
+    prefab: {fileID: 0}
+  - name: Battery cluster
+    sprite: {fileID: -8305803365058092108, guid: 5979f050cd9dc864491604a0e92eaa64,
+      type: 3}
+    description: The battery cluster has a huge capacity and is powered by neutrinos.
+    texturesprite: {fileID: -8305803365058092108, guid: 5979f050cd9dc864491604a0e92eaa64,
+      type: 3}
+    texture: {fileID: 0}
+    type: 1
+    stack: 64
+    blockID: 14
+    spawnPrefab: 0
+    prefab: {fileID: 0}
+  - name: Light block
+    sprite: {fileID: 2252217939642970804, guid: 5979f050cd9dc864491604a0e92eaa64,
+      type: 3}
+    description: This block illuminates the environment in a small radius
+    texturesprite: {fileID: 2252217939642970804, guid: 5979f050cd9dc864491604a0e92eaa64,
+      type: 3}
+    texture: {fileID: 0}
+    type: 1
+    stack: 64
+    blockID: 17
+    spawnPrefab: 1
+    prefab: {fileID: 2563000585955825250, guid: c3d368bddb156314baff56b622d8aa11,
+      type: 3}
+  - name: Compressor
+    sprite: {fileID: 3786829970477001853, guid: 5979f050cd9dc864491604a0e92eaa64,
+      type: 3}
+    description: Forms new elements with the help of compression.
+    texturesprite: {fileID: 3786829970477001853, guid: 5979f050cd9dc864491604a0e92eaa64,
+      type: 3}
+    texture: {fileID: 0}
+    type: 1
+    stack: 64
+    blockID: 20
+    spawnPrefab: 0
+    prefab: {fileID: 0}
+  - name: Dark Sand
+    sprite: {fileID: 3048892388686381023, guid: 5979f050cd9dc864491604a0e92eaa64,
+      type: 3}
+    description: Loose stone, more like dark sand.
+    texturesprite: {fileID: 3048892388686381023, guid: 5979f050cd9dc864491604a0e92eaa64,
+      type: 3}
+    texture: {fileID: 0}
+    type: 1
+    stack: 64
+    blockID: 18
+    spawnPrefab: 0
+    prefab: {fileID: 0}
+  - name: Hard glass
+    sprite: {fileID: -2734800647392024937, guid: 5979f050cd9dc864491604a0e92eaa64,
+      type: 3}
+    description: This glass is so strong, tough and lightweight. Ideal for a spaceship.
+    texturesprite: {fileID: -2734800647392024937, guid: 5979f050cd9dc864491604a0e92eaa64,
+      type: 3}
+    texture: {fileID: 0}
+    type: 1
+    stack: 64
+    blockID: 19
+    spawnPrefab: 0
+    prefab: {fileID: 0}
+  - name: Stable energy point
+    sprite: {fileID: 6395214293025444372, guid: f151710505e5d4842a798f3eff8f83f0,
+      type: 3}
+    description: This glass is so strong, tough and lightweight. Ideal for a spaceship.
+    texturesprite: {fileID: 6395214293025444372, guid: f151710505e5d4842a798f3eff8f83f0,
+      type: 3}
+    texture: {fileID: 0}
+    type: 2
+    stack: 16
+    blockID: 0
+    spawnPrefab: 0
+    prefab: {fileID: 0}
+  - name: Hard dust
+    sprite: {fileID: -4538752222985096420, guid: f151710505e5d4842a798f3eff8f83f0,
+      type: 3}
+    description: Sand mixed with metals and stones. Can be converted to compressor.
+    texturesprite: {fileID: -4538752222985096420, guid: f151710505e5d4842a798f3eff8f83f0,
+      type: 3}
+    texture: {fileID: 0}
+    type: 2
+    stack: 64
+    blockID: 0
+    spawnPrefab: 0
+    prefab: {fileID: 0}
+  - name: Glass panel
+    sprite: {fileID: 4533227004153260592, guid: f151710505e5d4842a798f3eff8f83f0,
+      type: 3}
+    description: Hard glass panel, it is very light and almost does not transmit
+      light.
+    texturesprite: {fileID: 4533227004153260592, guid: f151710505e5d4842a798f3eff8f83f0,
+      type: 3}
+    texture: {fileID: 0}
+    type: 2
+    stack: 64
+    blockID: 0
+    spawnPrefab: 0
+    prefab: {fileID: 0}
+  - name: Lamp
+    sprite: {fileID: 1122774824596591943, guid: f151710505e5d4842a798f3eff8f83f0,
+      type: 3}
+    description: The light from this lamp is dim but inexhaustible.
+    texturesprite: {fileID: 1122774824596591943, guid: f151710505e5d4842a798f3eff8f83f0,
+      type: 3}
+    texture: {fileID: 0}
+    type: 2
+    stack: 32
+    blockID: 0
+    spawnPrefab: 0
+    prefab: {fileID: 0}
+  crafts:
+  - finalItemName: Iron billet
+    tableblockId: 6
+    craftCount: 1
+    craftItems:
+    - name: Iron bar
+      count: 2
+  - finalItemName: Drill
+    tableblockId: 6
+    craftCount: 1
+    craftItems:
+    - name: Iron billet
+      count: 1
+    - name: Carcase
+      count: 1
+    - name: Battery
+      count: 1
+  - finalItemName: Forming furnace
+    tableblockId: 6
+    craftCount: 1
+    craftItems:
+    - name: Iron ore
+      count: 20
+  - finalItemName: Carcase
+    tableblockId: 6
+    craftCount: 1
+    craftItems:
+    - name: Iron billet
+      count: 2
+  - finalItemName: Battery
+    tableblockId: 6
+    craftCount: 2
+    craftItems:
+    - name: Iron bar
+      count: 2
+    - name: Copper bar
+      count: 4
+    - name: Gold bar
+      count: 1
+  - finalItemName: Heating panel
+    tableblockId: 6
+    craftCount: 1
+    craftItems:
+    - name: Carcase
+      count: 1
+    - name: Battery
+      count: 2
+  - finalItemName: Logical Element
+    tableblockId: 6
+    craftCount: 5
+    craftItems:
+    - name: Gold bar
+      count: 1
+    - name: Copper bar
+      count: 4
+  - finalItemName: Navigator
+    tableblockId: 6
+    craftCount: 1
+    craftItems:
+    - name: Battery
+      count: 1
+    - name: Chip
+      count: 2
+  - finalItemName: Battery cluster
+    tableblockId: 6
+    craftCount: 2
+    craftItems:
+    - name: Carcase
+      count: 1
+    - name: Battery
+      count: 5
+  - finalItemName: Console
+    tableblockId: 6
+    craftCount: 1
+    craftItems:
+    - name: Navigator
+      count: 1
+    - name: Carcase
+      count: 1
+    - name: Battery
+      count: 2
+    - name: Chip
+      count: 2
+  - finalItemName: Chip
+    tableblockId: 6
+    craftCount: 1
+    craftItems:
+    - name: Logical Element
+      count: 3
+    - name: Gold bar
+      count: 1
+    - name: Copper bar
+      count: 5
+  - finalItemName: Jet
+    tableblockId: 6
+    craftCount: 1
+    craftItems:
+    - name: Heating panel
+      count: 1
+    - name: Carcase
+      count: 1
+    - name: 'Forcer '
+      count: 1
+  - finalItemName: Compression chamber
+    tableblockId: 6
+    craftCount: 1
+    craftItems:
+    - name: Chip
+      count: 1
+    - name: Oxygen
+      count: 1
+  - finalItemName: Combustion chamber
+    tableblockId: 6
+    craftCount: 1
+    craftItems:
+    - name: Forcer
+      count: 1
+    - name: Battery
+      count: 1
+    - name: Carcase
+      count: 1
+  - finalItemName: 'Forcer '
+    tableblockId: 6
+    craftCount: 1
+    craftItems:
+    - name: Iron bar
+      count: 5
+    - name: Oxygen
+      count: 5
+    - name: Iron billet
+      count: 4
+  - finalItemName: Thruster Red
+    tableblockId: 6
+    craftCount: 2
+    craftItems:
+    - name: Jet
+      count: 1
+    - name: Compression chamber
+      count: 1
+    - name: Combustion chamber
+      count: 1
+  - finalItemName: Thruster Blue
+    tableblockId: 6
+    craftCount: 2
+    craftItems:
+    - name: Jet
+      count: 1
+    - name: Compression chamber
+      count: 1
+    - name: Combustion chamber
+      count: 1
+  - finalItemName: Thruster Pink
+    tableblockId: 6
+    craftCount: 2
+    craftItems:
+    - name: Jet
+      count: 1
+    - name: Compression chamber
+      count: 1
+    - name: Combustion chamber
+      count: 1
+  - finalItemName: Thruster Green
+    tableblockId: 6
+    craftCount: 2
+    craftItems:
+    - name: Jet
+      count: 1
+    - name: Compression chamber
+      count: 1
+    - name: Combustion chamber
+      count: 1
+  - finalItemName: Thruster White
+    tableblockId: 6
+    craftCount: 2
+    craftItems:
+    - name: Jet
+      count: 1
+    - name: Compression chamber
+      count: 1
+    - name: Combustion chamber
+      count: 1
+  - finalItemName: Thruster Yellow
+    tableblockId: 6
+    craftCount: 2
+    craftItems:
+    - name: Jet
+      count: 1
+    - name: Compression chamber
+      count: 1
+    - name: Combustion chamber
+      count: 1
+  - finalItemName: Thruster LightGreen
+    tableblockId: 6
+    craftCount: 2
+    craftItems:
+    - name: Jet
+      count: 1
+    - name: Compression chamber
+      count: 1
+    - name: Combustion chamber
+      count: 1
+  - finalItemName: Iron bar
+    tableblockId: 16
+    craftCount: 2
+    craftItems:
+    - name: Iron ore
+      count: 1
+  - finalItemName: Copper bar
+    tableblockId: 16
+    craftCount: 2
+    craftItems:
+    - name: Copper ore
+      count: 1
+  - finalItemName: Gold bar
+    tableblockId: 16
+    craftCount: 1
+    craftItems:
+    - name: Gold ore
+      count: 2
+  - finalItemName: Oxygen
+    tableblockId: 16
+    craftCount: 1
+    craftItems:
+    - name: Rock
+      count: 4
+  - finalItemName: Metal Block
+    tableblockId: 6
+    craftCount: 1
+    craftItems:
+    - name: Carcase
+      count: 1
+  - finalItemName: Light block
+    tableblockId: 6
+    craftCount: 2
+    craftItems:
+    - name: Carcase
+      count: 2
+    - name: Lamp
+      count: 2
+  - finalItemName: Lamp
+    tableblockId: 20
+    craftCount: 1
+    craftItems:
+    - name: Glass panel
+      count: 2
+    - name: Battery
+      count: 2
+    - name: Chip
+      count: 1
+    - name: Stable energy point
+      count: 1
+  - finalItemName: Stable energy point
+    tableblockId: 20
+    craftCount: 1
+    craftItems:
+    - name: Battery
+      count: 2
+    - name: Hard dust
+      count: 5
+  - finalItemName: Glass panel
+    tableblockId: 20
+    craftCount: 1
+    craftItems:
+    - name: Hard dust
+      count: 2
+  - finalItemName: Hard glass
+    tableblockId: 6
+    craftCount: 1
+    craftItems:
+    - name: Glass panel
+      count: 2
+  - finalItemName: Hard dust
+    tableblockId: 20
+    craftCount: 5
+    craftItems:
+    - name: Dark Sand
+      count: 5
+    - name: Rock
+      count: 5
+    - name: Gold bar
+      count: 1
+    - name: Iron bar
+      count: 1
+    - name: Copper bar
+      count: 1
+  - finalItemName: Compressor
+    tableblockId: 6
+    craftCount: 5
+    craftItems:
+    - name: Crafter
+      count: 1
+    - name: Compression chamber
+      count: 1
+  - finalItemName: Crafter
+    tableblockId: 6
+    craftCount: 1
+    craftItems:
+    - name: Copper ore
+      count: 10
+  players: []
+  meteors: []
+--- !u!1 &705507993
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 705507995}
+  - component: {fileID: 705507994}
+  m_Layer: 0
+  m_Name: Directional Light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &705507994
+Light:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705507993}
+  m_Enabled: 1
+  serializedVersion: 10
+  m_Type: 1
+  m_Shape: 0
+  m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
+  m_Intensity: 1
+  m_Range: 10
+  m_SpotAngle: 30
+  m_InnerSpotAngle: 21.80208
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: -1
+    m_CustomResolution: -1
+    m_Strength: 0.466
+    m_Bias: 0.033
+    m_NormalBias: 0
+    m_NearPlane: 0.2
+    m_CullingMatrixOverride:
+      e00: 1
+      e01: 0
+      e02: 0
+      e03: 0
+      e10: 0
+      e11: 1
+      e12: 0
+      e13: 0
+      e20: 0
+      e21: 0
+      e22: 1
+      e23: 0
+      e30: 0
+      e31: 0
+      e32: 0
+      e33: 1
+    m_UseCullingMatrixOverride: 0
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingLayerMask: 1
+  m_Lightmapping: 1
+  m_LightShadowCasterMode: 0
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_UseBoundingSphereOverride: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &705507995
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705507993}
+  m_LocalRotation: {x: 0.40821788, y: -0.23456968, z: 0.10938163, w: 0.8754261}
+  m_LocalPosition: {x: 0, y: 3, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &712031837
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 712031838}
+  - component: {fileID: 712031839}
+  m_Layer: 8
+  m_Name: Line (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &712031838
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 712031837}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1197974410}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!120 &712031839
+LineRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 712031837}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 0
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10306, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Positions:
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 1, z: 0}
+  m_Parameters:
+    serializedVersion: 3
+    widthMultiplier: 0.1
+    widthCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    colorGradient:
+      serializedVersion: 2
+      key0: {r: 0, g: 1, b: 0.10735226, a: 1}
+      key1: {r: 0, g: 1, b: 0.10735226, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    numCornerVertices: 0
+    numCapVertices: 0
+    alignment: 0
+    textureMode: 0
+    shadowBias: 0.5
+    generateLightingData: 0
+  m_UseWorldSpace: 0
+  m_Loop: 0
+--- !u!1 &959290168
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 959290169}
+  - component: {fileID: 959290171}
+  m_Layer: 0
+  m_Name: DirectionsRender
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &959290169
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 959290168}
+  m_LocalRotation: {x: 0.38268343, y: 0, z: 0, w: 0.92387956}
+  m_LocalPosition: {x: 0.142, y: 1.533, z: -1.031}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1197974410}
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 45, y: 0, z: 0}
+--- !u!20 &959290171
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 959290168}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 2
+  m_BackGroundColor: {r: 0.2830189, g: 0.2830189, b: 0.2830189, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 10
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 256
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 8400000, guid: 2591558008652424ead0a87e47a32b09, type: 2}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!1 &1042221437
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1042221440}
+  - component: {fileID: 1042221439}
+  - component: {fileID: 1042221438}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1042221438
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1042221437}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &1042221439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1042221437}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &1042221440
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1042221437}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1197974409
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1197974410}
+  - component: {fileID: 1197974411}
+  m_Layer: 8
+  m_Name: Directions
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1197974410
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1197974409}
+  m_LocalRotation: {x: -0.38268343, y: -0, z: -0, w: 0.92387956}
+  m_LocalPosition: {x: -0.142, y: -0.3549676, z: 1.8130218}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1554406075}
+  - {fileID: 712031838}
+  - {fileID: 1489884546}
+  m_Father: {fileID: 959290169}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1197974411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1197974409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b548fe645778244388c329c54cc3737, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1489884545
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1489884546}
+  - component: {fileID: 1489884547}
+  m_Layer: 8
+  m_Name: Line (2)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1489884546
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1489884545}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1197974410}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!120 &1489884547
+LineRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1489884545}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 0
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10306, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Positions:
+  - {x: 0, y: 0, z: 0}
+  - {x: 1, y: 0, z: 0}
+  m_Parameters:
+    serializedVersion: 3
+    widthMultiplier: 0.1
+    widthCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    colorGradient:
+      serializedVersion: 2
+      key0: {r: 1, g: 0.023192735, b: 0, a: 1}
+      key1: {r: 1, g: 0.023192735, b: 0, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    numCornerVertices: 0
+    numCapVertices: 0
+    alignment: 0
+    textureMode: 0
+    shadowBias: 0.5
+    generateLightingData: 0
+  m_UseWorldSpace: 0
+  m_Loop: 0
+--- !u!1 &1554406074
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1554406075}
+  - component: {fileID: 1554406076}
+  m_Layer: 8
+  m_Name: Line
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1554406075
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1554406074}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1197974410}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!120 &1554406076
+LineRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1554406074}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 0
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10306, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_Positions:
+  - {x: 0, y: 0, z: 0}
+  - {x: 0, y: 0, z: 1}
+  m_Parameters:
+    serializedVersion: 3
+    widthMultiplier: 0.1
+    widthCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    colorGradient:
+      serializedVersion: 2
+      key0: {r: 0, g: 0.40819383, b: 1, a: 1}
+      key1: {r: 0, g: 0.5756111, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    numCornerVertices: 0
+    numCapVertices: 0
+    alignment: 0
+    textureMode: 0
+    shadowBias: 0.5
+    generateLightingData: 0
+  m_UseWorldSpace: 0
+  m_Loop: 0
